@@ -13,10 +13,10 @@ function TodoListStats() {
 
   return (
     <ul>
-      <li>Total items: {totalNum}</li>
-      <li>Items completed: {totalCompletedNum}</li>
-      <li>Items not completed: {totalUncompletedNum}</li>
-      <li>Percent completed: {formattedPercentCompleted}</li>
+      <li>모든 투두: {totalNum}</li>
+      <li>완료: {totalCompletedNum}</li>
+      <li>미완료: {totalUncompletedNum}</li>
+      <li>비율: {formattedPercentCompleted}</li>
     </ul>
   );
 }
