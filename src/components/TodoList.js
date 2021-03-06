@@ -7,6 +7,7 @@ import filteredTodoListState from "../states/filteredTodoListState";
 import TodoItem from "./TodoItem";
 import TodoItemCreator from "./TodoItemCreator";
 import TodoListFilters from "./TodoListFilters";
+import TodoListStats from "./TodoListStats";
 
 function TodoList() {
   // const todoList = useRecoilValue(todoListState);
@@ -14,7 +15,7 @@ function TodoList() {
 
   return (
     <>
-      {/* <TodoListStats /> */}
+      <TodoListStats />
       <TodoListFilters />
       <TodoItemCreator />
 
